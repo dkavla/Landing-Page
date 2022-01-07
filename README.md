@@ -1,7 +1,7 @@
 # Landing-Page
-The second project in TheOdinProject curriculum involving only HTML and CSS concepts.
+This the second project in TheOdinProject curriculum involving only HTML and CSS concepts.
 
-The project is meant to display the basic HTML and CSS concepts acquired thus far. The focus of the project was mainly the use
+The project is meant to display the basic HTML and CSS concepts I have acquired thus far. The focus of the project was mainly around the use
 of Flexbox in order to align the many different containers on the webpage. 
 
 The webpage is for a fictitious IT consulting business called Asgardian Solutions. Any and all names found on this webpage are meant to be fake and not associated with real individuals or organizations.
