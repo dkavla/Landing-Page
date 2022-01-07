@@ -6,6 +6,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    background-color: #1f2937;
 }
 
 /* Header CSS */
@@ -54,5 +55,57 @@ body {
 
 
 /* Section 1 CSS */
+.section-1 {
+    
+    display: flex;
+    flex-direction: row;
+    margin: 60px;
+    justify-content: center;
+    gap: 100px;
+    align-items: flex-start;
+}
+
+.section-1 .section-1-sub-1 {
+    height: 100px;
+    width: 300px;
+    
+}
+
+.section-1-sub-1 .large-intro {
+    font-size: 38px;
+    margin: 0;
+    color: #f9faf8;
+}
+
+.section-1-sub-1 .subtext {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.section-1-sub-1 .sign-up {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.section-1 .section-1-sub-2 {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+    background-color: gray;
+}
+
+.section-1-sub-2 img {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 400px;
+    width: 400px;
+}
 
 
