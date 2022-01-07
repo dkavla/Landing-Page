@@ -37,6 +37,10 @@ body {
     margin-right: 100px;
 }
 
+.right-side li {
+    padding: 0 20px;
+}
+
 .left-side {
     display: flex;
     justify-content: flex-start;
@@ -59,16 +63,19 @@ body {
     
     display: flex;
     flex-direction: row;
-    margin: 60px;
+    margin: 100px;
     justify-content: center;
     gap: 100px;
     align-items: flex-start;
 }
 
 .section-1 .section-1-sub-1 {
-    height: 100px;
-    width: 300px;
-    
+    /* height: 100px;
+    width: 300px; */
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
 }
 
 .section-1-sub-1 .large-intro {
@@ -80,6 +87,8 @@ body {
 .section-1-sub-1 .subtext {
     color: #f9faf8;
     font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .section-1-sub-1 .sign-up {
@@ -88,6 +97,7 @@ body {
     padding: 5px 20px;
     border-radius: 5px;
     border: none;
+    width: 100px;
 }
 
 .section-1 .section-1-sub-2 {
@@ -95,8 +105,7 @@ body {
     width: 400px;
     display: flex;
     justify-content: center;
-    align-self: center;
-    
+    align-self: center;    
     background-color: gray;
 }
 
@@ -108,4 +117,60 @@ body {
     width: 400px;
 }
 
+/* Section 2 */
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    background-color: #f9faf8;
+    margin: 0;
+}
 
+.section-2 .info-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: extra-bold;
+    padding-top: 50px;
+}
+
+.section-2 .images-container {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    /* gap: 20px; */
+}
+
+.img-sub-1,
+.img-sub-2,
+.img-sub-3,
+.img-sub-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 0 40px;
+}
+
+.section-2 img {
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.section-2 p {
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-2 .img-text {
+    width: 100px;
+}
