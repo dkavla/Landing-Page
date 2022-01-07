@@ -253,5 +253,12 @@ body {
     height: 50px;
 }
 
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+}
+
 
 
